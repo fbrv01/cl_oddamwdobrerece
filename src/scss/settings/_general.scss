@@ -1,0 +1,23 @@
+@import "../settings/_fonts";
+
+$breakpoint-laptop: 1024px;
+$breakpoint-tablet: 768px;
+//$breakpoint-mobile: 768px;
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  font-family: $font-base;
+}
+
+.container {
+  width: 90%;
+  max-width: 1616px;
+  margin: 0 auto;
+}
